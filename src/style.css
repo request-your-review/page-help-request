@@ -141,7 +141,7 @@ img {
 
 .btn-div {
   background-color: #e9ebee;
-  display: none;
+  display: block;
   text-align: right;
 }
 .main__btn {
