@@ -14,7 +14,7 @@ function sendEmail() {
   var form = document.getElementById("myForm"); // Make sure your form has the correct ID
   var formData = new FormData(form);
 
-  fetch("https://formspree.io/f/myyrwgvr", {
+  fetch("https://formspree.io/f/mayroygo", {
     method: "POST",
     mode: "cors",
     body: formData,
